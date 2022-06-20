@@ -1,0 +1,90 @@
+.post{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 4px 21px -1px rgba(171,138,138,0.75);
+    -webkit-box-shadow: 1px 4px 21px -1px rgba(171,138,138,0.75);
+    margin: 30px 0;
+}
+
+
+.postWrapper{
+    padding: 10px;
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postProfileImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postUserName{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.postCenter{
+    margin: 20px 0;
+}
+
+.postImg{
+    width: 100%;
+    margin-top: 20px;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postIcon:hover{
+    transform: scale(1.2);
+    transition: .2s ease-in-out;
+}
+
+
+.postLikeCounter{
+    font-size: 15px;
+}
+
+.postCommentText{
+    font-size: 12px;
+    cursor: pointer;
+}
+.postLikeCounter:hover,
+.postCommentText:hover{
+    text-decoration: underline;
+}
